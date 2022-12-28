@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Vidly
+          Southern
         </Link>
         <button
           className="navbar-toggler"
@@ -23,17 +23,17 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink className="nav-link " aria-current="page" to="/movies">
-                Movies
+                Class
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/customers">
-                Customers
+                Students
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/rentals">
-                Rentals
+                Schedules
               </NavLink>
             </li>
             <li className="nav-item">
